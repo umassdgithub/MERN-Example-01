@@ -14,7 +14,6 @@ flowchart TD
             Home[Home Page]:::client
             Auth[Login/Register]:::client
             Profile[Profile]:::client
-            Wall[The Wall]:::client
         end
         
         React --> Components
@@ -27,7 +26,6 @@ flowchart TD
         subgraph Middleware["Middleware Stack"]
             direction LR
             JWT[JWT Middleware]:::server
-            Cookie[Cookies Middleware]:::server
         end
         
         Express --> Middleware
