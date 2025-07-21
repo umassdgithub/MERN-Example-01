@@ -26,7 +26,7 @@ MERN-Profile-App/
 │   └── .env
 │
 ├── README.md
-└── Diagram.md            # Optional: Project architecture or data flow
+└── Diagram.md            # The code diagram
 ```
 
 ---
